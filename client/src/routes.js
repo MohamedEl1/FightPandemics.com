@@ -4,6 +4,7 @@ import { OfferHelp } from "./pages/OfferHelp";
 import { About } from "./pages/About";
 import { Medical } from "./pages/Medical";
 import { AirTableCOVID } from "./pages/AirTableCOVID";
+import NearestHospital from "./pages/nearest-hospital/NearestHospital";
 import FindHelp from "./pages/find-help/FindHelp";
 import SymptomsCheck from "./pages/symptoms-check/SymptomsCheck";
 import Page1 from "./pages/symptoms-check/pages/Page1";
@@ -34,6 +35,10 @@ export const routes = [
   {
     path: "/medical",
     component: Medical,
+  },
+  {
+    path: "/nearest-hospital",
+    component: NearestHospital,
   },
   {
     path: "/AirTableCOVID",
